@@ -160,6 +160,7 @@ void keyPressed(){
         
       }
     }
+    generations = 0;
   }
   if(key == 'S' || key == 's'){
     if(seiz){
@@ -178,6 +179,7 @@ void keyPressed(){
         }
       }
     }
+    generations = 0;
   }
   if(keyCode == UP){
     speed-=1;
